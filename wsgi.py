@@ -1,7 +1,7 @@
 from dash import Dash, html
 
-app = Dash(__name__)
-
+app = Dash()
+application = app.server
 app.layout = html.Div([
     html.Div(children='Hello World')
 ])
