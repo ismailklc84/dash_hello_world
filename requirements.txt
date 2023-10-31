@@ -37,6 +37,7 @@ fsspec==2023.6.0
 fugue==0.8.6
 fugue-sql-antlr==0.1.7
 greenlet==2.0.2
+gunicorn==21.2.0
 holidays==0.34
 huggingface-hub==0.16.4
 idna==3.4
