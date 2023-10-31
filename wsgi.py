@@ -1,6 +1,7 @@
 from dash import Dash, html
 import redis
 import datetime
+import os
 
 
 app = Dash()
