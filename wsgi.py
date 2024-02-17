@@ -24,7 +24,9 @@ app.layout = html.Div([
     html.Div(children=data_last_updated)
 ])
 
-
+@app.server.route("/ping")
+def ping():
+  return "{status: ok}"
 
 
 if __name__ == '__main__':
